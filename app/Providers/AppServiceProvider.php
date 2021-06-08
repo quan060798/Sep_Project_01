@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         $charts->register([
-            \App\charts\StatusChart::class,
+            \App\Charts\StatusChart::class,
         ]);
 
         Paginator::useBootstrap();
